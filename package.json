@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Plataforma web para Centro Clinico Mediterraneo, para incentivar a la prevención al cáncer gastrico.",
   "main": "src/index.js",
+  "engines":{
+    "node": "14.x"
+  },
   "scripts": {
     "build:css": "postcss src/public/styles/tailwind.css -o src/public/styles/style.css",
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",

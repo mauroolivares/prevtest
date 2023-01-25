@@ -1,13 +1,12 @@
 const server = require('./server');
-const {delay} = require('./utils/various');
+const dotenv = require('dotenv').config();
 
 //server port
-const localport =  3000;
+
 
 const startServer = () => {
-  server.listen(localport, async () => {
-    await delay(6000);
-    console.log(`Server running on port ${localport}.`);
+  server.listen(process.env.LOCALPORT, async () => {
+    console.log(`Server running on port ${process.env.LOCALPORT}.`);
   });
 };
 

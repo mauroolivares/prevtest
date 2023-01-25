@@ -1,0 +1,48 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Plataforma web para Centro Clinico Mediterraneo, para incentivar a la prevención al cáncer gastrico.",
+  "main": "src/index.js",
+  "scripts": {
+    "build:css": "postcss src/public/styles/tailwind.css -o src/public/styles/style.css",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapstoneClinica/BackEnd.git"
+  },
+  "author": "Backend: Mauro Olivares | Frontend: Raul Ramirez | Planeación: Valentina Juarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CapstoneClinica/BackEnd/issues"
+  },
+  "homepage": "https://github.com/CapstoneClinica/BackEnd#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.17.3",
+    "formidable": "^2.1.1",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "html": "^1.0.0",
+    "jquery": "^3.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "memorystore": "^1.6.7",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "sequelize": "^6.25.7",
+    "tailwindcss": "^3.2.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8"
+  }
+}

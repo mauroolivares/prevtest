@@ -1,0 +1,9 @@
+supabase password:
+GR3wHByjQ5Q9yr0O
+
+pg_dump --clean --if-exists --quote-all-identifiers -h ec2-52-200-5-135.compute-1.amazonaws.com -U ngqchwjkcxxkay -d dn2f9aoitet77  --no-owner --no-privileges > heroku_dump.sql
+
+heroku password:
+14a0eac86c4de833d041b00300bcbc745953f5f53de1ac7f1ac444027a0e8a81
+
+psql -h db.xiabgdykweweprsdualv.supabase.co -U postgres -f heroku_dump.sql

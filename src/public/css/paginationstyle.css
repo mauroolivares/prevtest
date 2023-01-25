@@ -1,0 +1,40 @@
+.paging-nav {
+    text-align: right;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+}
+.paging-nav a {
+    margin: auto 1px;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background: #93C5FD;
+    color: white;
+    border-radius: 4px;
+}
+.paging-nav .selected-page {
+    background: #3b82f6;
+    font-weight: bold;
+}
+.paging-nav,
+#dataCuestionariosMed,
+#dataCuestionariosPendMed,
+#dataPacientesMed,
+#dataNotificacionesPat,
+#dataNotificacionesMed {
+    width: auto;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.paging-nav,
+#dataExamenesPat,
+#dataExamenesMed {
+    font-family: Arial, sans-serif;
+}

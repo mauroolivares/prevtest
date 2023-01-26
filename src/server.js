@@ -1,3 +1,5 @@
+'use strict';
+const serverless = require('serverless-http');
 const express = require('express')
 const app = express();
 const session = require('express-session')
@@ -31,3 +33,4 @@ app.set('views', require("path").join(__dirname,'views'))
 app.use(routes);
 
 module.exports = app;
+module.exports.handler = serverless(app);

@@ -8,9 +8,7 @@
   },
   "scripts": {
     "build:css": "postcss src/public/styles/tailwind.css -o src/public/styles/style.css",
-    "start": "node src/index.js",
-    "predeploy": "npm run start",
-    "deploy": "gh-pages -d ."
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",

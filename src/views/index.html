@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			href="https://ccmediterraneo.cl/wp-content/uploads/2019/12/cropped-descarga-32x32.png"
+			sizes="32x32"
+		/>
+		<link rel="stylesheet" href="../../public/styles/style.css" />
+		<title>Inicio</title>
+	</head>
+	<body>
+		<div
+			class="flex flex-col overflow-x-auto my-8 mx-4 items-center justify-center rounded-xl border border-gray-200"
+		>
+			<div class="mt-4">
+				<a class="flex items-center">
+					<img
+						src="../public/images/LogoCentro.png"
+						class="w-auto h-9"
+						alt="CCM Logo"
+					/>
+				</a>
+			</div>
+			<div class="mt-16 text-center">
+				<h2 class="text-3xl">Bienvenido a Centro Clínico Mediterráneo</h2>
+				<p class="mx-auto mt-4 w-auto text-gray-600">
+					Por favor, antes de iniciar seleccione el tipo de usuario.
+				</p>
+			</div>
+			<div class="flex flex-wrap p-8 my-8 gap-6 items-center justify-around">
+				<a href="./Patient/login_Pat.html">
+					<button
+						type="button"
+						class="flex relative mx-4 shadow-md rounded-lg border border-gray-200 hover:shadow-[rgb(0,_70,_200)_0px_0px_2px,_rgb(0,_70,_200)_0px_0px_2px,_rgb(0,_70,_200)_0px_0px_2px,_rgb(0,_70,_200)_0px_0px_20px]"
+					>
+						<div class="flex bg-blue-500 py-4 px-4 rounded-l-lg items-center">
+							<svg
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+								id="user"
+								class="w-10 h-10"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+								></path>
+							</svg>
+						</div>
+						<div class="mt-6 pl-8 pr-8 bg-white rounded-r-lg items-center">
+							Paciente
+						</div>
+					</button>
+				</a>
+				<a href="./Medical Staff/login_Med.html">
+					<button
+						type="button"
+						class="flex relative mx-4 shadow-md rounded-lg border border-gray-200 hover:shadow-[rgb(0,_150,_60)_0px_0px_2px,_rgb(0,_150,_60)_0px_0px_2px,_rgb(0,_150,_60)_0px_0px_2px,_rgb(0,_150,_60)_0px_0px_20px]"
+					>
+						<div class="bg-green-600 py-4 px-4 rounded-l-lg items-center">
+							<svg
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+								id="user-group"
+								class="w-10 h-10"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+								></path>
+							</svg>
+						</div>
+						<div class="mt-6 pl-8 pr-8 bg-white rounded-r-lg items-center">
+							Personal Médico
+						</div>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div class="flex items-center justify-center py-4">
+			<a href="https://ccmediterraneo.cl/">
+				<button
+					class="my-2 py-2 px-4 block rounded-md font-medium text-blue-600 hover:bg-gray-100"
+				>
+					¿Quieres conocernos? Ingresa a nuestro sitio web.
+				</button>
+			</a>
+		</div>
+	</body>
+</html>

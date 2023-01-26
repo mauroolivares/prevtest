@@ -1,0 +1,10 @@
+runtime: nodejs14
+env_variables: 
+  HOST: "db.xiabgdykweweprsdualv.supabase.co"
+  DB: "postgres"
+  USER: "postgres"
+  DBPORT: "5432"
+  PASSWORD: "GR3wHByjQ5Q9yr0O"
+  DIALECT: "postgres"
+  SECRET: "nZr4u7x!A%D*G-Ka"
+  PORT: "3000"

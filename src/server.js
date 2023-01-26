@@ -6,7 +6,7 @@ const MemoryStore = require('memorystore')(session)
 const routes = require("./routes");
 const sequelize = require("./config/db").sequelize;
 const path = require("path")
-const dotenv = require('dotenv').config();
+//const dotenv = require('dotenv').config();
 require("./models/index");
 
 app.use(session({

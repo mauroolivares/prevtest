@@ -8,3 +8,5 @@ Mauro Olivares - Backend
 Raul Ramirez - Frontend
 
 Valentina Juarez - Modelo de predicción
+
+Asignatura: Capstone Project (Diciembre 2022)
